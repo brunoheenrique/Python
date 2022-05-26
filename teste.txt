@@ -1,1 +1,3 @@
-Este é o arquivo de teste utilizado para o aprendizado de Python
+Este e o arquivo de teste utilizado para o aprendizado de Python.
+Testes de leituras serao realizados a partir deste arquivo.
+Este sera o nosso primeiro contato com os metodos propostos pela tecnologia.
