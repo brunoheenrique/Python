@@ -1,3 +1,5 @@
 Este e o arquivo de testes para arquivos em Python.
 Este arquivo sera utilizado para realizar os testes.
 Testes de tecnologia realizados por este arquivo.
+Uma nova string de testes para o arquivo de testes.Novo teste inserindo algumas linhas no arquivo.
+Uma segunda linha representativa.
