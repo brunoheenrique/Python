@@ -1,6 +1,4 @@
-arquivo  = open("teste.txt");
-
-arquivo2 = open("C:/Dev/WebDesign/Webdesign/teste2.txt")
+arquivo  = open("teste.txt", "r");
 
 conteudo = arquivo.readline();
 conteudo2 = arquivo.readline();
@@ -12,4 +10,3 @@ print(repr(conteudo3));
 
 arquivo.close()
 
-arquivo2.close()
