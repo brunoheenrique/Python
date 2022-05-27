@@ -4,12 +4,15 @@ try:
     conexao = conector.connect("banco_teste.db")
     cursor = conexao.cursor()
     
-    comando = '''CREATE TABLE Pessoa(
-        cpf INTEGER NOT NULL, nome TEXT NOT NULL,
-        nascimento DATE NOT NULL, oculos BOOLEAN NOT NULL,
-        PRIMARY KEY(cpf) 
+    comando = '''CREATE TABLE Veiculo(
+      placa CHARACTER(7) NOT NULL, ano INTEGER NOT NULL,
+      cor TEXT NOT NULL, proprietario INTEGER NOT NULL,
+      marca INTEGER NOT NULL,
+      PRIMARY KEY(placa)
+      FOREIGN KEY(proprietario) REFERENCES Pessoa(cpf),
+      FOREIGN KEY(marca) REFERENCES Marca(id)
     );'''
-    
+  
     cursor.execute(comando)
     
     conexao.commit()
