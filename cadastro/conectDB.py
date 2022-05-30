@@ -4,7 +4,15 @@ class conectDB :
     def conexDB():
         try:
             conexao = conector.connect("banco_teste.db")
-            cursor = conexao.cursor()
+            cursor = conexao.cursor() 
+            
+        except conector.DatabaseError as error:
+            
+            print('Erro de Banco de Dados', error)
+        
+        finally:
+            cursor.close() 
+            conexao.close()
             
         # comando1 = ''' DROP TABLE Veiculo;'''
         
@@ -17,18 +25,10 @@ class conectDB :
         #       proprietario INTEGER NOT NULL,
         #      marca INTEGER NOT NULL,
         #     PRIMARY KEY(placa),
-            #    FOREIGN KEY(proprietario) REFERENCES Pessoa(cpf),
-            #   FOREIGN KEY(marca) REFERENCES Marca(id)
+        #        FOREIGN KEY(proprietario) REFERENCES Pessoa(cpf),
+        #       FOREIGN KEY(marca) REFERENCES Marca(id)
         #  );'''
             
         #  cursor.execute(comando2)
             
         # conexao.commit()
-            
-        except conector.DatabaseError as error:
-            
-            print('Erro de Banco de Dados', error)
-        
-        finally:
-            cursor.close() 
-            conexao.close()
