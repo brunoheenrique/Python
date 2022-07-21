@@ -1,0 +1,6 @@
+usuario: thiago.acacio, felipe.praxedes@viavarejo.com.br
+senha: miguel2014, Controle@2022
+
+data hoje - (quantos dias): 0
+
+Unidade (Separador por ", "): MIG - São Paulo, FE 1200 - Jundiaí, HIZS 1200 - Jundiaí, ASAP 1200 - Jundiaí, GR 1088 - Ribeirão Preto, ASAP 1088 - Ribeirão Preto, RN 1500 - São Bernardo do Campo, FE 1500 - São Bernardo do Campo, GR 1500 - São Bernardo do Campo, HIZS 1500 - São Bernardo do Campo, OT BFB  1500 - São Bernardo do Campo, TRANSISA 1500 - São Bernardo do Campo, ASAP 1500 - São Bernardo do Campo, FAA 1760 - Contagem, GR 1760 - Contagem, HIZS 1760 - Contagem, ASAP 1760 - Contagem, FE 1401 - Duque de Caxias, HIZS 1401 - Duque de Caxias, TRM 1401 - Duque de Caxias, ASSIS RIO 1401 - Duque de Caxias, IRMÃOS 1401 - Duque de Caxias
